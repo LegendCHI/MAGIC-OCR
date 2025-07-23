@@ -1,7 +1,6 @@
 from PIL import Image, ImageFilter, ImageOps
 import pytesseract
 
-# En Streamlit Cloud pytesseract ya está instalado y configurado
 def preprocess_image_pil(pil_img):
     gray = ImageOps.grayscale(pil_img)
     blur = gray.filter(ImageFilter.GaussianBlur(1))
