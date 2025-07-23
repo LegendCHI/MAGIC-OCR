@@ -1,5 +1,6 @@
 streamlit
-opencv-python
 pillow
-pytesseract
+numpy
 sqlite3
+pytesseract
+matplotlib
