@@ -40,5 +40,5 @@ st.subheader("📜 Últimos archivos procesados")
 for name, timestamp in fetch_recent_entries():
     st.write(f"• **{name}** — {timestamp}")
     st.divider()
-st.text("Desarrollado por RobDev St - 2025" "©️"
-        - " RobDev St. Todos los derechos reservados.")
+st.text("Desarrollado por RobDev St - 2025©️
+        -  RobDev St. Todos los derechos reservados.")
