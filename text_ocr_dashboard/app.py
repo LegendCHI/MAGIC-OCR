@@ -40,7 +40,7 @@ st.subheader("📜 Últimos archivos procesados")
 for name, timestamp in fetch_recent_entries():
     st.write(f"• **{name}** — {timestamp}")
 
-ast.divider()
+st.divider()
 st.text("""
 Organización y herramientas utilizadas
 
