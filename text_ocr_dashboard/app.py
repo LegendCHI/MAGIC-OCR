@@ -1,5 +1,5 @@
 import streamlit as st
-from ocr_module import extract_text_from_image, extract_text_from_path
+from ocr_module import extract_text_from_image
 from database import init_db, save_entry, fetch_recent_entries
 import os
 
