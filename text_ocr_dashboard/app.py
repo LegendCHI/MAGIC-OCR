@@ -52,12 +52,12 @@ Este proyecto fue desarrollado con enfoque colaborativo y uso estratégico de he
 - **Discord**: Organización del equipo, asignación de roles y seguimiento de tareas.
 
 🎨 Diseño y desarrollo colaborativo
-- RobDev Studios: Encargado de la lógica técnica, integración y estructura del backend.  
-- Achuchumrra Studios: Responsable del diseño visual, experiencia de usuario (UI/UX), Publicidad y branding del proyecto.
+- __**RobDev Studios**__: Encargado de la lógica técnica, integración y estructura del backend.  
+- __**Achuchumrra Studios**__: Responsable del diseño visual, experiencia de usuario (UI/UX), Publicidad y branding del proyecto.
 
 🚀 Testing y promoción* 
-- Validación y difusión realizada por miembros del equipo y colaboradores externos para asegurar funcionalidad, accesibilidad y estabilidad.
+- Validación y difusión realizada por miembros del equipo y colaboradores externos para asegurar __funcionalidad, accesibilidad y estabilidad__.
 
-📁 Repositorio público: [github.com/LegendCHI/MAGIC-OCR](https://github.com/LegendCHI/MAGIC-OCR)
+📁 **Repositorio público**: [github.com/LegendCHI/MAGIC-OCR](https://github.com/LegendCHI/MAGIC-OCR)
 """)
 
