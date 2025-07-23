@@ -35,7 +35,7 @@ if uploaded_file:
         save_entry(uploaded_file.name, extracted_text)
         st.success("Guardado exitosamente.")
 
-st.divider()
+    st.divider()
 st.subheader("📜 Últimos archivos procesados")
 for name, timestamp in fetch_recent_entries():
     st.write(f"• **{name}** — {timestamp}")
