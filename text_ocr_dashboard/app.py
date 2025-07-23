@@ -11,7 +11,7 @@ st.markdown("Extrae texto desde imágenes con reconocimiento OCR automático.")
 uploaded_file = st.file_uploader("📤 Cargar imagen", type=["png", "jpg", "jpeg", "bmp"])
 
 if uploaded_file:
-    st.image(uploaded_file, caption="Imagen cargada", use_column_width=True)
+    st.image(uploaded_file, use_container_width=True)
     extracted_text = extract_text_from_image(uploaded_file)
     st.subheader("📄 Texto detectado")
     st.text_area("Resultado", extracted_text, height=200)
