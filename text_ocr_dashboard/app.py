@@ -40,7 +40,23 @@ st.subheader("📜 Últimos archivos procesados")
 for name, timestamp in fetch_recent_entries():
     st.write(f"• **{name}** — {timestamp}")
     st.divider()
+    
 st.text("""
-• Desarollado por RobDev St's ©
-• Originalidad: [a](https://error-wizard-magic-ocr.streamlit.app/)
+🧠 **Organización y herramientas utilizadas**
+
+Este proyecto fue desarrollado siguiendo buenas prácticas de organización técnica y colaboración digital. A continuación se detallan los recursos aplicados:
+
+• **GitHub**: Control de versiones, documentación colaborativa y gestión del repositorio principal.  
+• **Streamlit**: Interfaz web interactiva optimizada para dispositivos móviles y escritorio.  
+• **OCR Toolkit**: Tecnología basada en inteligencia artificial para el reconocimiento óptico de caracteres (OCR).  
+• **Base de datos integrada**: Guardado de resultados con historial para seguimiento de uso.  
+• **Discord y Trello** *(opcional si usaste)*: Coordinación del equipo de desarrollo y comunicación interna.
+
+📁 Repositorio: [github.com/LegendCHI/MAGIC-OCR](https://github.com/LegendCHI/MAGIC-OCR)  
+🎨 Diseño colaborativo entre RobDev Studios y Achuchumrra Studios  
+🚀 Tester y promoción realizados por miembros del equipo + colaboradores externos
+
+---
+
+Podés complementar esto mencionando que el proyecto se basa en principios de accesibilidad, colaboración y eficiencia. Si querés que te ayude a integrarlo directamente en tu app, ¡también te doy una mano! ¿Querés que te lo traduzca a código `st.markdown()` para colocarlo tal cual en Streamlit?
 """)
