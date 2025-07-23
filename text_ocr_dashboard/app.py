@@ -6,7 +6,7 @@ init_db()
 st.set_page_config(page_title="OCR Dashboard", layout="centered")
 
 st.title("🧠 OCR Web App")
-st.markdown("""
+st.text("""
 Esta aplicación permite **extraer texto desde imágenes** usando tecnología OCR (Reconocimiento Óptico de Caracteres) alimentada por inteligencia artificial.
 
 🧩 **¿Para qué sirve?**
