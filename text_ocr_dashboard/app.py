@@ -43,7 +43,7 @@ for name, timestamp in fetch_recent_entries():
     
 st.text("""
 st.markdown("""
-🧠 Organización y herramientas utilizadas
+ 🧑‍💻 Organización y herramientas utilizadas
 
 Este proyecto fue desarrollado con enfoque colaborativo y uso estratégico de herramientas modernas:
 
