@@ -1,15 +1,18 @@
-from PIL import Image, ImageFilter, ImageOps
-import pytesseract
+from PIL import Image
+import easyocr
+import numpy as np
 
-pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
-
-
-def preprocess_image(img: Image.Image):
-    gray = ImageOps.grayscale(img)
-    blur = gray.filter(ImageFilter.GaussianBlur(1))
-    return blur
+# Crear lector OCR con inglés y español como idiomas permitidos
+reader = easyocr.Reader(['en', 'es'], gpu=False)
 
 def extract_text_from_image(uploaded_img):
-    pil_img = Image.open(uploaded_img)
-    processed = preprocess_image(pil_img)
-    return pytesseract.image_to_string(processed)
+    # Cargar imagen desde Streamlit uploader
+    pil_img = Image.open(uploaded_img).convert('RGB')
+    img_array = np.array(pil_img)
+
+    # Ejecutar OCR
+    results = reader.readtext(img_array)
+
+    # Combinar los bloques de texto detectado
+    text = "\n".join([res[1] for res in results])
+    return text
