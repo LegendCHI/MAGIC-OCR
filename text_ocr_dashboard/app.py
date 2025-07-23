@@ -58,6 +58,6 @@ Este proyecto fue desarrollado con enfoque colaborativo y uso estratégico de he
 🚀 Testing y promoción* 
 - Validación y difusión realizada por miembros del equipo y colaboradores externos para asegurar __funcionalidad, accesibilidad y estabilidad__.
 
-📁 **Repositorio público**: [github.com/LegendCHI/MAGIC-OCR](https://github.com/LegendCHI/MAGIC-OCR)
+👨‍💻 Servidor De Discordia: [RobDev Studios](https://discord.gg/hjtXkxtW)
 """)
 
