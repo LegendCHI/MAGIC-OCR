@@ -1,8 +1,8 @@
 from PIL import Image, ImageFilter, ImageOps
 import pytesseract
 
-# Ruta válida para entornos Linux/Streamlit Cloud
 pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
+
 
 def preprocess_image(img: Image.Image):
     gray = ImageOps.grayscale(img)
