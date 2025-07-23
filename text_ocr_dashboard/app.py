@@ -61,4 +61,3 @@ Este proyecto fue desarrollado con enfoque colaborativo y uso estratégico de he
 📁 Repositorio público: [github.com/LegendCHI/MAGIC-OCR](https://github.com/LegendCHI/MAGIC-OCR)
 """)
 
-""")
