@@ -1,5 +1,7 @@
 from PIL import Image, ImageFilter, ImageOps
 import pytesseract
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
+
 
 def preprocess_image_pil(pil_img):
     gray = ImageOps.grayscale(pil_img)
