@@ -42,5 +42,5 @@ for name, timestamp in fetch_recent_entries():
     st.divider()
 st.text("""
 • Desarollado por RobDev St's ©
-• Originalidad: (a)[https://error-wizard-magic-ocr.streamlit.app/]
+• Originalidad: [a](https://error-wizard-magic-ocr.streamlit.app/)
 """)
