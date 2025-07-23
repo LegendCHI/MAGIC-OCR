@@ -42,21 +42,24 @@ for name, timestamp in fetch_recent_entries():
     st.divider()
     
 st.text("""
+st.markdown("""
 🧠 **Organización y herramientas utilizadas**
 
-Este proyecto fue desarrollado siguiendo buenas prácticas de organización técnica y colaboración digital. A continuación se detallan los recursos aplicados:
+Este proyecto fue desarrollado con enfoque colaborativo y uso estratégico de herramientas modernas:
 
-• **GitHub**: Control de versiones, documentación colaborativa y gestión del repositorio principal.  
-• **Streamlit**: Interfaz web interactiva optimizada para dispositivos móviles y escritorio.  
-• **OCR Toolkit**: Tecnología basada en inteligencia artificial para el reconocimiento óptico de caracteres (OCR).  
-• **Base de datos integrada**: Guardado de resultados con historial para seguimiento de uso.  
-• **Discord y Trello** *(opcional si usaste)*: Coordinación del equipo de desarrollo y comunicación interna.
+• **GitHub**: Control de versiones, documentación y gestión del repositorio.  
+• **Streamlit**: Framework para desarrollar la interfaz web interactiva de manera rápida y accesible.  
+• **EasyOCR**: Motor principal para el reconocimiento óptico de caracteres en imágenes.  
+• **Discord y Trello** *(si aplica)*: Organización del equipo, asignación de roles y seguimiento de tareas.
 
-📁 Repositorio: [github.com/LegendCHI/MAGIC-OCR](https://github.com/LegendCHI/MAGIC-OCR)  
-🎨 Diseño colaborativo entre RobDev Studios y Achuchumrra Studios  
-🚀 Tester y promoción realizados por miembros del equipo + colaboradores externos
+🎨 **Diseño y desarrollo colaborativo**  
+• **RobDev Studios**: Encargado de la lógica técnica, integración y estructura del backend.  
+• **Achuchumrra Studios**: Responsable del diseño visual, experiencia de usuario (UI/UX) y branding del proyecto.
 
----
+🚀 **Testing y promoción**  
+• Validación y difusión realizada por miembros del equipo y colaboradores externos para asegurar funcionalidad, accesibilidad y estabilidad.
 
-Podés complementar esto mencionando que el proyecto se basa en principios de accesibilidad, colaboración y eficiencia. Si querés que te ayude a integrarlo directamente en tu app, ¡también te doy una mano! ¿Querés que te lo traduzca a código `st.markdown()` para colocarlo tal cual en Streamlit?
+📁 Repositorio público: [github.com/LegendCHI/MAGIC-OCR](https://github.com/LegendCHI/MAGIC-OCR)
+""")
+
 """)
