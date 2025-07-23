@@ -39,3 +39,25 @@ st.divider()
 st.subheader("📜 Últimos archivos procesados")
 for name, timestamp in fetch_recent_entries():
     st.write(f"• **{name}** — {timestamp}")
+    st.divider()
+    
+st.text("""
+Organización y herramientas utilizadas
+
+Este proyecto fue desarrollado con enfoque colaborativo y uso estratégico de herramientas modernas:
+
+- GitHub: Control de versiones, documentación y gestión del repositorio.  
+- Streamlit: Framework para desarrollar la interfaz web interactiva de manera rápida y accesible.  
+- EasyOCR: Motor principal para el reconocimiento óptico de caracteres en imágenes.  
+- Discord: Organización del equipo, asignación de roles y seguimiento de tareas.
+
+🎨 Diseño y desarrollo colaborativo
+- RobDev Studios: Encargado de la lógica técnica, integración y estructura del backend.  
+- Achuchumrra Studios: Responsable del diseño visual, experiencia de usuario (UI/UX), Publicidad y branding del proyecto.
+
+🚀 Testing y promoción* 
+- Validación y difusión realizada por miembros del equipo y colaboradores externos para asegurar funcionalidad, accesibilidad y estabilidad.
+
+📁 Repositorio público: [github.com/LegendCHI/MAGIC-OCR](https://github.com/LegendCHI/MAGIC-OCR)
+""")
+
