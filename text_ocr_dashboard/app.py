@@ -41,7 +41,6 @@ for name, timestamp in fetch_recent_entries():
     st.write(f"• **{name}** — {timestamp}")
     st.divider()
 st.text("""
-- Desarollado por RobDev St©️
-
-- Programmer: Error Wizard / Chigend_10f
+• Desarollado por RobDev St's ©
+• Originalidad: (a)[https://error-wizard-magic-ocr.streamlit.app/]
 """)
