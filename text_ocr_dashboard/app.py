@@ -61,8 +61,9 @@ Este proyecto fue desarrollado con enfoque colaborativo y uso estratégico de he
 👨‍💻 Servidor De Discordia: [RobDev Studios](https://discord.gg/hjtXkxtW)
 
 🧑‍💻 Programador Principal
-## - Error Wizard
+### - Error Wizard
 """)
+
 
 
 
