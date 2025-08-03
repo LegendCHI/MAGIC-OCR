@@ -59,5 +59,9 @@ Este proyecto fue desarrollado con enfoque colaborativo y uso estratégico de he
 - Validación y difusión realizada por miembros del equipo y colaboradores externos para asegurar __funcionalidad, accesibilidad y estabilidad__.
 
 👨‍💻 Servidor De Discordia: [RobDev Studios](https://discord.gg/hjtXkxtW)
+
+🧑‍💻 Programador Principal
+- ErrorWizard 
 """)
+
 
