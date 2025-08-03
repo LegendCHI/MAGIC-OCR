@@ -64,6 +64,7 @@ Este proyecto fue desarrollado con enfoque colaborativo y uso estratégico de he
 ### - Error Wizard
 """)
 
+st.divider()
 
 
 
